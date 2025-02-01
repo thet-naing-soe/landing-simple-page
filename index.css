@@ -60,6 +60,10 @@ input {
   background: #ededed;
   margin-bottom: 2.5em;
 }
+input:focus {
+  outline: 1px solid rgba(128, 128, 128, 0.365);
+}
+
 button {
   width: 100%;
   font-family: inherit;
